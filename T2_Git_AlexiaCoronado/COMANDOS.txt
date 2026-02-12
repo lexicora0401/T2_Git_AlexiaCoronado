@@ -1,0 +1,18 @@
+COMANDOS A EJECUTAR PARA LA EVIDENCIA
+
+git init
+git config --global user.name "Alexia"
+git config --global user.email "tu_correo@cibertec.edu.pe"
+git add .
+git commit -m "Primer commit - AlexiaCoronado"
+git remote add origin https://github.com/TUUSUARIO/T2_Git_AlexiaCoronado.git
+git push -u origin main
+
+# Pregunta 3
+git branch feature_AlexiaCoronado
+git checkout feature_AlexiaCoronado
+git add .
+git commit -m "Feature: actualización README - AlexiaCoronado"
+git checkout main
+git merge feature_AlexiaCoronado
+git push
